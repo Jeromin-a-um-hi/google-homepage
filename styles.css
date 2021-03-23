@@ -30,7 +30,7 @@ input:focus {
     border-radius: 1em;
     border: solid;
     border-width: 0.5px;
-    border-color: gray;
+    border-color:#D3D3D3;
     width: auto;
 }
 
@@ -40,4 +40,34 @@ input:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    border: solid;
+    border-width: 0.5px;
+    border-color:#D3D3D3;
+    bottom: 0px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    color: #70757a
+}
+
+.spans {
+    display: flex;
+    flex-direction: row;
+    font-size: calc(0.5vw + 5px);
+    padding: 1vw;
+}
+
+.footer span {
+    margin: 1vw;
+}
+
+button {
+    background-color: #F2F2F2;
 }
