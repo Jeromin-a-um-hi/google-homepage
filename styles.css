@@ -1,3 +1,8 @@
+body {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
 nav {
     display: flex;
     direction: row;
@@ -60,14 +65,10 @@ input:focus {
 .spans {
     display: flex;
     flex-direction: row;
-    font-size: calc(0.5vw + 5px);
+    font-size: 1em;
     padding: 1vw;
 }
 
 .footer span {
     margin: 1vw;
-}
-
-button {
-    background-color: #F2F2F2;
 }
