@@ -62,6 +62,10 @@ input:focus {
     color: #70757a
 }
 
+.footer::before {
+    content: "<b>Built by <a href="https://github.com/Jeromin-a-um-hi">https://github.com/Jeromin-a-um-hi</a></b>";
+}
+
 .spans {
     display: flex;
     flex-direction: row;
